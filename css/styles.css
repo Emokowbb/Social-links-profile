@@ -1,0 +1,88 @@
+*, html{
+    padding: 0;
+    margin: 0;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    max-height: 1440px;
+    margin: auto;
+    font-family: "Inter";
+    font-weight: 400, 600, 700;
+
+  }
+.div1{
+  background-color: rgba(128, 128, 128, 0.326);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 30px;
+}
+img{
+  border-radius: 100%;
+}
+.p1{
+color: hsl(75, 94%, 57%);
+}
+.div2{
+color: white;
+}
+.div3{
+display: flex;
+flex-direction: column;
+padding: 0px;
+color: wheat;
+margin-bottom: 10px;
+gap: 10px;
+
+}
+.p2{
+border: 1px solid rgba(128, 128, 128, 0.163);
+border-radius: 8px;
+color: ;
+padding: 10px;
+background-color: rgba(128, 128, 128, 0.163);
+/* margin-bottom: 2px; */
+}
+.linktext{
+color: white;
+text-decoration: none;
+}
+.linktext:hover{
+    color: black;
+}
+.button:hover{
+background-color: hsl(75, 94%, 57%);
+}
+.button{
+background-color: rgba(128, 128, 128, 0.163);
+padding: 10px;
+border-radius: 8px;
+border: ;
+border: 1px solid rgba(128, 128, 128, 0.163);
+}
+
+@media screen and (max-height: 375px) {
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    .div1{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
